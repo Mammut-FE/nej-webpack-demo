@@ -1,0 +1,7 @@
+{
+  "layout-system": "/m",
+  "layout-module": "/m/module",
+  "module-leftbar": "/?/module/leftbar/",
+  "module-container": "/m/module/container",
+  "module-container-1": "/m/module/container1"
+}

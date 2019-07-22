@@ -1,0 +1,23 @@
+{
+  "name": "nej-webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mammut-FE/nej-webpack-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mammut-FE/nej-webpack-demo/issues"
+  },
+  "homepage": "https://github.com/Mammut-FE/nej-webpack-demo#readme",
+  "dependencies": {
+    "regularjs": "^0.6.2"
+  }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!-- 样式文件 -->
+    <link rel="stylesheet" href="/src/css/reset.css">
+</head>
+<body id="module-box">
+
+
+<div id="template-box" style="display:none;">
+<textarea name="txt" id="tpl-layout-module">
+<div class="module-wrap">
+	<div class="left-bar-wrap j-flag"></div>
+	<div class="container-wrap j-flag"></div>
+</div>
+</textarea>
+
+<textarea name="txt" id="tpl-layout-system">
+<div class="container j-flag"></div>
+</textarea>
+</div>
+
+<!-- @MERGE {name:'vendor',minify:true} -->
+<script src="/src/javascript/lib/regularjs/regular.min.js"></script>
+<!-- /@MERGE -->
+
+<!-- @SCRIPT -->
+<script src="/src/javascript/lib/nej/define.js?components=/src/components/&pro=/src/javascript/&mod=/src/html/module/"></script>
+<script src="/src/javascript/router/router.js"></script>
+<!-- 结束 -->
+</body>
+</html>

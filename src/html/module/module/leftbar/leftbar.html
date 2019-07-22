@@ -1,0 +1,12 @@
+<div class="m-left-bar">
+    <header>
+        左边栏标题
+    </header>
+    <nav>
+        <ul>
+            {#list navItems as item}
+            <li on-click="{this.onClick(item)}">{item.title}</li>
+            {/list}
+        </ul>
+    </nav>
+</div>

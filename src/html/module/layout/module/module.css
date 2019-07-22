@@ -1,0 +1,12 @@
+.module-wrap {
+    height: 100%;
+    display: flex;
+}
+
+.module-wrap .left-bar-wrap {
+    width: 240px;
+}
+
+.module-wrap .container-wrap {
+    flex: 1;
+}

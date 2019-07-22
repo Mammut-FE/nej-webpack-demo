@@ -1,0 +1,21 @@
+.m-left-bar {
+    padding: 24px;
+}
+
+.m-left-bar header {
+    height: 56px;
+    margin-bottom: 16px;
+
+    line-height: 56px;
+    font-size: 24px;
+}
+
+.m-left-bar nav li {
+    height: 32px;
+    line-height: 32px;
+}
+
+.m-left-bar nav li:hover {
+    color: #528CE0;
+    cursor: pointer;
+}
