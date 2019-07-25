@@ -19,14 +19,14 @@
   },
   "homepage": "https://github.com/Mammut-FE/nej-webpack-demo#readme",
   "dependencies": {
-    "nejm": "^1.0.1",
+    "nejm": "^1.1.1",
     "regularjs": "^0.6.2"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "babel-loader": "^8.0.6",
-    "babel-plugin-transform-nej-modules-es2015": "^2.0.0",
+    "babel-plugin-transform-nej-modules-es2015": "^2.1.0",
     "css-loader": "^3.1.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
